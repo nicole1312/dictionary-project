@@ -6,10 +6,10 @@ export default function Results(props) {
     return (
       <div className="Results">
         <h3 className="word text-capitalize mt-3">{props.results.word}</h3>
-        {props.results.meanings.map(function (meanings, index) {
+        {props.results.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
-              <Meaning meaning={meanings} />
+              <Meaning meaning={meaning} />
             </div>
           );
         })}
