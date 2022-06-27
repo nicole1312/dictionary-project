@@ -1,20 +1,46 @@
-.App {
-  margin: 30px 30px;
+:root {
+  --primary-color: #516d96;
+  --secondary-color: #43597f;
+  --link-color: #eb7746;
+  --border-color: #a4bbc6;
+  --background-color: #e6f1fa;
+  --box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
+
+.App {
+  background: #eff4f8;
+  margin-bottom: -10px;
+  padding: 20px 0 100px;
+}
+
+.App .app-container {
+  background: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
+  max-width: 900px;
+  padding: 20px 40px 60px;
+}
+
 .App h1 {
-  color: rgb(52, 51, 51);
+  color: var(--secondary-color);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 45px;
-  margin-top: 60px;
+  margin: 40px 0 30px;
 }
 .App footer {
-  font-size: 12px;
-  margin-top: 40px;
+  color: var(--secondary-color);
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 600;
+  margin: -30px auto;
+  text-align: center;
 }
 .App footer:hover {
   text-decoration: underline;
 }
 .App .source-code-link {
-  color: #eb7746;
+  color: var(--link-color);
   text-decoration: none;
 }

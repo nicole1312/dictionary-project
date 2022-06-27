@@ -8,20 +8,21 @@ function App() {
       <div className="container app-container">
         <h1>Dictionary</h1>
         <main>
-          <Dictionary />
+          <Dictionary searchedWord="sunshine" />
         </main>
-        <footer>
-          <a
-            href="https://github.com/nicole1312/dictionary-project"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="source-code-link"
-          >
-            Open-souce-code
-          </a>
-          by Nicoleta Serban
-        </footer>
       </div>
+
+      <footer>
+        <a
+          href="https://github.com/nicole1312/dictionary-project"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="source-code-link"
+        >
+          Open-souce-code
+        </a>
+        by Nicoleta Serban
+      </footer>
     </div>
   );
 }

@@ -1,0 +1,14 @@
+.Phonetic .text {
+  color: var(--primary-color);
+  font-size: 15px;
+  line-height: 2.5;
+}
+.Phonetic .listen {
+  color: var(--link-color);
+  font-size: 13px;
+  margin: 25px;
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+  padding: 6px;
+  text-decoration: none;
+}

@@ -1,3 +1,18 @@
 .Meaning {
   text-align: start;
 }
+.Meaning h4 {
+  color: var(--primary-color);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 15px 0;
+}
+.Meaning .example {
+  font-size: 14px;
+  color: var(--primary-color);
+  letter-spacing: -1.2px;
+}
+.Meaning section {
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+  padding: 25px;
+}

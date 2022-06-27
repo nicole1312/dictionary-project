@@ -1,0 +1,6 @@
+.Results h3 {
+  color: var(--secondary-color);
+  display: inline-block;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 20px;
+}
