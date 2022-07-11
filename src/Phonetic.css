@@ -2,13 +2,24 @@
   color: var(--primary-color);
   font-size: 15px;
   line-height: 2.5;
+  margin-left: -100px;
 }
-.Phonetic .listen {
-  color: var(--link-color);
-  font-size: 13px;
-  margin: 25px;
+.Phonetic .audio {
+  opacity: 0.8;
+}
+.Phonetic {
+  background: var(--container-color);
   box-shadow: var(--box-shadow);
   border-radius: 5px;
-  padding: 6px;
-  text-decoration: none;
+  padding: 25px;
+}
+@media (max-width: 600px) {
+  .Phonetic {
+    padding: 30px;
+    text-align: center;
+  }
+
+  .Phonetic .text {
+    margin-right: -100px;
+  }
 }

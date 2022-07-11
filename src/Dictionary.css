@@ -3,6 +3,17 @@
   max-width: 40%;
 }
 .Dictionary input {
-  font-style: italic;
   opacity: 0.5;
+}
+.Dictionary .hint {
+  color: #939da3;
+  font-style: italic;
+  font-size: 12px;
+
+  text-align: start;
+}
+@media (max-width: 600px) {
+  .Dictionary .form-search {
+    max-width: 100%;
+  }
 }

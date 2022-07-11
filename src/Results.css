@@ -1,6 +1,13 @@
 .Results h3 {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   display: inline-block;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin-top: 20px;
+}
+.Results section {
+  background: var(--container-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+  padding: 25px;
+  margin: 30px auto;
 }

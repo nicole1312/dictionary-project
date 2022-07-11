@@ -1,5 +1,22 @@
+.Photos {
+  background: var(--container-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+  padding: 25px 20px 5px;
+}
+
 .Photos img {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 3px;
   margin-bottom: 25px;
+}
+.Photos h4 {
+  color: var(--primary-color);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 15px 0 30px;
+}
+@media (max-width: 600px) {
+  .Photos h4 {
+    text-align: start;
+  }
 }

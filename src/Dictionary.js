@@ -52,6 +52,9 @@ export default function Dictionary(props) {
             onChange={handleWordChange}
           />
         </form>
+        <div className="hint">
+          Suggested words: sunshine, wine, yoga, forest...
+        </div>
         <Results results={results} />
         <Photos photos={photos} />
       </div>

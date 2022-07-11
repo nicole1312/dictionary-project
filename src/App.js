@@ -21,7 +21,7 @@ function App() {
         >
           Open-souce-code
         </a>
-        by Nicoleta Serban
+        by Nicole Serban
       </footer>
     </div>
   );
