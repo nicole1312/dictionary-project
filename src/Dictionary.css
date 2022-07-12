@@ -9,7 +9,7 @@
   color: #939da3;
   font-style: italic;
   font-size: 12px;
-
+  margin-left: 3px;
   text-align: start;
 }
 @media (max-width: 600px) {

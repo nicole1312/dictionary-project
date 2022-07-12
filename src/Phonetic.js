@@ -1,29 +1,21 @@
 import React from "react";
-import { FaFileAudio } from "react-icons/fa";
-import { IconContext } from "react-icons";
+import { FaPlay } from "react-icons/fa";
 import "./Phonetic.css";
 
 export default function Phonetic(props) {
+  const audio = new Audio(props.phonetic.audio);
+  const start = () => {
+    audio.play();
+  };
   return (
     <div className="Phonetic">
       <div className="row">
         <div className="col-sm-3">
-          <IconContext.Provider
-            value={{
-              style: {
-                fontSize: "30px",
-                color: "#43597f",
-              },
-            }}
-          >
-            <div className="audio">
-              <a href={props.phonetic.audio} target="_self">
-                <FaFileAudio />
-              </a>
-            </div>
-          </IconContext.Provider>
+          <button onClick={start} className="btn btn-light audio">
+            <FaPlay />
+          </button>
         </div>
-        <div className="col-sm-9">
+        <div className="col-sm-6">
           <span className="text">{props.phonetic.text}</span>
         </div>
       </div>
